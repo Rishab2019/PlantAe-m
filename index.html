@@ -1,0 +1,449 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Rishab">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <title>Plantae</title>
+<!--
+
+
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+
+    <link rel="stylesheet" href="css/homePage.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+</head>
+
+<body>
+ 
+  <a id="button"></a>
+  <nav class="navbar navbar-expand-sm bg-faded navbar-light sticky-top first-nav">
+	  <a class="navbar-brand" href="#"><img src="PlantaeData/PlantLogo.png" height="60px" width="60px"> PlantAe</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  	<div class="navbar-nav ml-auto">
+		    <form class="form-inline my-2 my-lg-0">
+		    	<input id="SearchBar" class="form-control ajax search" type="search" placeholder="Search" aria-label="Search" style="width: 360px;">
+                        <button class="sbutton">
+                        <span class="src-t">    </span>
+                        <i class="fa fa-search" aria-hidden="false"></i>
+                        </button>
+			</form><!--------------------------------Search Bar and Button -->
+		</div>
+
+			 <ul class="navbar-nav ml-auto">
+	      <li class="nav-item ">
+	         <a class="nav-link text-dark" id="pi" href="sign-inpage.html">Login <svg class="bi bi-person-check-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+	  			<path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 100-6 3 3 0 000 6zm9.854-2.854a.5.5 0 010 .708l-3 3a.5.5 0 01-.708 0l-1.5-1.5a.5.5 0 01.708-.708L12.5 7.793l2.646-2.647a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+				</svg><!--------------------Login Buttonn and Icon   ----------------->
+				</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link text-dark"id="pi2" href="#">Cart <svg class="bi bi-bag-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+ 				 <path d="M1 4h14v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4zm7-2.5A2.5 2.5 0 005.5 4h-1a3.5 3.5 0 117 0h-1A2.5 2.5 0 008 1.5z"/>
+				</svg><!--------------------Cart Buttonn and Icon   ----------------->
+			</a>
+	      </li>
+	    </ul>
+
+				
+		</div>
+	</nav>
+     
+	<nav class="navbar navbar-expand-sm bg-dark navbar-light sticky-top second-nav">
+	     <div class="container">
+		 <a class="navbar-brand1" href="aboutus.html">About us</a>
+	      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	        <ul class="navbar-nav mr-auto">
+			    <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          PLANTS
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="indoorplants.html"> Indoor Plants </a>
+			          <a class="dropdown-item" href="#"> Air Purifier </a>
+			          <a class="dropdown-item" href="#"> Flowering Plants </a>
+			          <a class="dropdown-item" href="#"> Succulent/Cactus </a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#"> Medicinal Plants </a>
+			        </div>
+			    </li>
+			    <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          SEEDS
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#"> Vegetable Seeds </a>
+			          <a class="dropdown-item" href="#"> Flower Seeds </a>
+			          <a class="dropdown-item" href="#"> Herb Seeds </a>
+			          <a class="dropdown-item" href="#"> Bulbs </a>
+			          <a class="dropdown-item" href="#"> Fruit Seeds </a>
+			          <a class="dropdown-item" href="#"> Lawn Grass </a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#"> TREE SEEDS </a>
+			        </div>
+			    </li>
+			    <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          POTS & PLANTERS 
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#"> Plastic Pots </a>
+			          <a class="dropdown-item" href="#"> Ceramic Pots </a>
+			          <a class="dropdown-item" href="#"> Metallic Pots </a>
+			          <a class="dropdown-item" href="#"> Seedling(s) Tray </a>
+			          <a class="dropdown-item" href="#"> Grow Bags </a>
+			          <a class="dropdown-item" href="#"> Coir Pots </a>
+			          <a class="dropdown-item" href="#"> Bamboo Planter </a>
+			        </div>
+			    </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          TOOLS & ACCESSORIES 
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#"> Prunning and Cutting Tools </a>
+			          <a class="dropdown-item" href="#"> Hand Tools </a>
+			          <a class="dropdown-item" href="#"> Digging Tools </a>
+			          <a class="dropdown-item" href="#"> Raking Tools </a>
+			          <a class="dropdown-item" href="#"> Watering Tools </a>
+			          <a class="dropdown-item" href="#"> Spray Pumps </a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#"> LAWN MOWERS </a>
+			        </div>
+			    </li>
+
+	    	</ul>
+	       	</div>
+	    </div> 
+	</nav> 
+     </div>
+
+
+
+    <!-- ***** Preloader End ***** -->
+
+
+    
+   
+    <!-- ***** Header Area End ***** -->
+
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome">
+
+        <!-- ***** Header Text Start ***** -->
+        <div class="header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
+                        data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <h1>Plants That we<em>Grow</em></h1>
+                        <p>Plantae is a small start-up</a> which was started on 23rd feb 2020 here we</a>.
+                           provide 100 different categories of plants with free return policy.</p> 
+                        <a href="#about" class="main-button-slider">KNOW US BETTER</a>
+                        <a href="#about" class="main-button-slider">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Header Text End ***** -->
+    </div>
+    <!-- ***** Welcome Area End ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <h2>01</h2>
+                            <img src="https://cdnk.nurserylive.com/images/nlive150k/home/nurserylive-icon-plants-simplified-3.png" alt="">
+                            <h4>Plants, Simplified</h4>
+                            <p>Order plants ready to be placed in your home, office or garden. Just Unpack, Relax and Enjoy your green buddies.</p>
+                            <a href="#testimonials" class="main-button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                    data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <h2>02</h2>
+                            <img src="https://cdnk.nurserylive.com/images/nlive150k/home/nurserylive-icon-secure-shipping-1.png" alt="">
+                            <h4>Secure Shipping</h4>
+                            <p>Our unique packaging will hold the plants in place and let the plant breathe, so that it reaches you fresh without any mess.</p>
+                            <a href="#testimonials" class="main-button">
+                                Discover More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                    data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <h2>03</h2>
+                            <img src="https://cdnk.nurserylive.com/images/nlive150k/home/nurserylive-icon-detailed-guidance.png" alt="">
+                            <h4>Detailed Guidance</h4>
+                            <p>Get detailed plant care instructions from the website as well as real-time guidance from our Garden Experts on Whatsapp.</p>
+                            <a href="#testimonials" class="main-button">
+                                More Detail
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    <div class="left-image-decor"></div>
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="promotion">
+        <div class="container">
+            <div class="row">
+                <div class="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="https://hdwallpapers.cat/wallpaper/valley-with-pines-skies-sun-nature-9DTf.jpg" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
+                    <ul>
+                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                            <img src="assets/images/about-icon-01.png" alt="">
+                            <div class="text">
+                                <h4>Cancellation and Refund</h4>
+                               <p>Cancellations will be considered only if the request is made within 24 hours of placing an order.
+                               </p>
+                            </div>
+                        </li>
+                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.5s">
+                            <img src="assets/images/about-icon-02.png" alt="">
+                            <div class="text">
+                                <h4>Payments</h4>
+                                <p>
+                                    Plantae is proud to use EBS, Payu, PayTM and other online payment systems for fast, easy and efficient secure payments. All major credit cards are accepted.
+                                    
+                                </p>
+                            </div>
+                        </li>
+                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
+                            <img src="assets/images/about-icon-03.png" alt="">
+                            <div class="text">
+                                <h4>Shipping & Delivery Policy (Products)</h4>
+                                <p>
+                                    For domestic buyers, orders are shipped through registered domestic courier companies and /or speed post only.We do not ship Plantae products out of India.
+                                    
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    <div class="right-image-decor"></div>
+
+    <!-- ***** Testimonials Starts ***** -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="center-heading">
+                        <h2>What They Think <em>About Us</em></h2>
+                        <p>At Plantae our top-most priority is our customers .we believe in satisfying our customers at any cost so below here are some of our loyal customers lets check what they said about plantae:</p>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="PlantaeData/DevImage/lalit.JPG"width="30px" alt="Author One"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Lalit Sharma</h4>
+                                <p>“faster shipping and the delivery is always on time i loved it .”</p>
+                                <span>web-developer</span>
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="PlantaeData/DevImage/deepak.jpg" alt="Second Author"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Deepak Kumar</h4>
+                                <p>“price of products are quite low ,i reaaly appericiate it !”</p>
+                                <span>React.js Developer</span>
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="PlantaeData/DevImage/rishab.jpg" alt="Author Third"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Rishab Tyagi</h4>
+                                <p>“I loved the quality of the products available here.From pots to plants, everything is Beautiful and Awesome”</p>
+                                <span>Full Stack Developer</span>
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="PlantaeData/DevImage/biju.jpg" alt="Fourth Author"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Bijender Gahlot</h4>
+                                <p>"always on time delivery and easy returns plus the cashback offers are too good for the customers "</p>
+                                <span>Data-scientist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Testimonials Ends ***** -->
+
+
+    <!-- ***** Footer Start ***** -->
+    <footer id="contact-us">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <!-- ***** Contact Form Start ***** -->
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="contact-form">
+                            <form id="contact" action="" method="post">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <fieldset>
+                                            <input name="name" type="text" id="name" placeholder="Full Name" required=""
+                                                style="background-color: rgba(250,250,250,0.3);">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <fieldset>
+                                            <input name="email" type="text" id="email" placeholder="E-Mail Address"
+                                                required="" style="background-color: rgba(250,250,250,0.3);">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <textarea name="message" rows="6" id="message" placeholder="Your Message"
+                                                required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <button type="submit" id="form-submit" class="main-button">Send Message
+                                                Now</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- ***** Contact Form End ***** -->
+                    <div class="right-content col-lg-6 col-md-12 col-sm-12">
+                        <h2>More About <em>Plantae</em></h2>
+                        <p>Plantae is home to plant scientists from all over the world. Members can share resources, participate in      discussions,groups, browse or post jobs and much more  
+                            <br><br> <a
+                                rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact</a> page
+                            for more detail.</p>
+                        <ul class="social">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fab fa-github"></i></a></li>
+                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="sub-footer">
+                        <p>Copyright &copy; 2020 Plantae
+
+                        | Designed by <a rel="nofollow" href="https://Plantae.org">Plantae</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/top1.js"></script>
+</body>
+</html>

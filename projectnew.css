@@ -1,0 +1,184 @@
+body{
+   background-color:white;
+   background-size: cover;
+   font-family: 'PT Sans', sans-serif!important;
+   background-color: #AAAAAA!important;
+}
+   
+
+	
+	
+
+.btn{
+	
+	margin: 3px;
+
+}
+
+.new-title{
+	padding-top: 30px;
+	text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkblue;
+	color: white;
+	font-size: 35px;
+	font-family: 'PT Sans', sans-serif!important;
+}
+
+
+img.card-img-top1{
+	max-height: 450px!important;
+
+	max-width: 300px!important;
+	text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkblue;
+	
+}
+
+
+.row{
+	padding-top: 100px;
+
+}
+img{
+	width: 300px!important;
+	height: 400px!important;
+	
+}
+
+img:hover{
+	 filter: blur(0);
+     transform: scale(1.25);
+	
+}
+
+.full-product-description{
+	padding:24px 24px 34px;
+	margin-left:400px;
+}
+
+div.specs{
+	text-align:center;
+}
+
+.card1{
+	border-color: black;
+	float: left;
+	margin: 2.60rem;
+	padding:0 auto;
+	padding-top:50px;
+	
+}
+.card-body1{
+	background-color: transparent;
+}
+.card-text1{
+	color: black;
+	margin-top: 40px;
+	
+	font-family: 'PT Sans', sans-serif!important;
+	font-family: 'PT Sans', sans-serif!important;
+
+
+}
+.card-title1{
+	text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkblue;
+	color: white;
+	font-size: 35px;
+	font-family: 'PT Sans', sans-serif!important;
+
+	
+	font-family: 'PT Sans', sans-serif!important;
+	
+
+}
+
+	
+img.card-img-top1{
+	max-height: 450px!important;
+
+	max-width: 300px!important;
+	text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkblue;
+	text-align:center;
+       
+}
+
+@media screen and (min-width:500px) and (max-width:600px){
+ 
+ .card1 {
+    border-color: black;
+    float: left;
+    margin: 2.60rem;
+    padding: 0 auto;
+    padding-top: 50px;
+    margin-left: 150px;
+}
+}	
+
+@media screen and (min-width:600px) and (max-width:768px){
+ 
+ .card1 {
+    border-color: black;
+    float: left;
+    margin: 2.60rem;
+    padding: 0 auto;
+    padding-top: 50px;
+    margin-left: 220px;
+}
+}	
+
+.full-product-description{
+	padding:24px 24px 34px;
+	margin-left:300px;
+}
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+ 
+ .card1 {
+    border-color: black;
+    float: left;
+    margin: 2.60rem;
+    padding: 0 auto;
+    padding-top: 50px;
+    margin-left: 300px;
+}
+}	
+
+.full-product-description{
+	padding:24px 24px 34px;
+	margin-left:300px;
+}
+
+}
+
+
+
+@media screen and (min-width:700px) and (max-width:991px){
+
+ .body{
+ 	max-width: auto;
+ 	height: auto;
+ 	margin: auto;
+ 	padding: auto;
+ }
+
+
+}
+@media screen and (min-wdth:700px) and (max-width: 991px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .mobile-top-fix {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .mobile-bottom-fix {
+    margin-bottom: 30px;
+  }
+  .mobile-bottom-fix-big {
+    margin-bottom: 60px;
+  }
+}
+
+
+
